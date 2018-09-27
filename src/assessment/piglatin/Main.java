@@ -13,6 +13,11 @@ public class Main {
 
     }
     public static String pigLatin(String sent){
-        String[] list = sent.split();
+        String[] list = sent.split("\\s+");
+        for(int i=0; i<list.length; i++){
+            if(list[i].)
+        }
+        String out = String.join(" ", list);
+        return out;
     }
 }
